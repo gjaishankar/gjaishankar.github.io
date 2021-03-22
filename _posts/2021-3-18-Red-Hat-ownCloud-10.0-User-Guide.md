@@ -1,6 +1,6 @@
 # Accessing My ownCloud Server
 
-You can access your ownCloud server from both a desktop or a mobile browser. For a list of supported browsers, see System Requirementsd
+You can access your ownCloud server from both a desktop or mobile browser. For a list of supported browsers, see System Requirements.
 
 1. From your mobile or desktop, open a supported browser, and enter the following:
 `http://localhost:8080/owncloud/index.ph`
