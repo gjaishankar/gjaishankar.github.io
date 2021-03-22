@@ -23,7 +23,7 @@ The ownCloud package comprises the following components:
 # System Requirements
 This section lists the requirements for installing ownCloud. The versions listed are suppported and certified. 
 ## Server  Requirements
-## Operating System
+**Operating System**
 * Ubuntu 16.04 and 18.04
 * Debian 7, 8, and 9
 * SUSE Linux Enterprise Server 12 with SP1, SP2, and SP3
@@ -31,21 +31,21 @@ This section lists the requirements for installing ownCloud. The versions listed
 * Fedora 27, 28, and 29
 * openSUSE Leap 42.3 and 15
 
-## Database 
+**Database**
 * MySQL or MariaDB 5.5+
 * Oracle 11g (Supported only for Enterprise editions)
 * PostgreSQL 9 (versions 10 and above are not yet supported)
 * SQLite (Not suitable for production environment)
 
-## Web server 
+**Web server** 
 * Apache 2.4 with prefork and mod_php
 
-## PHP Runtime 
+**PHP Runtime**
 5.6, 7.0, 7.1, and 7.2
 
 **NOTE**: PHP versions earlier than 7.2 could be deprecated in future.
  
-## Hypervisors
+**Hypervisors**
 * Hyper-V 
 * VMWare ESX
 * Xen
@@ -155,7 +155,7 @@ To verify a successful installation, you must access the ownCloud server from a 
 For Troubleshooting Tips, see XXX. 
 # Adding a New User
 
-AFter you complete the installation, you can begin adding users who can use your ownCloud server space. You can add a new user as an individual user or as part of a group. When you add a user to an existing group, the groups’s policies apply to the user.
+After you complete the installation, you can begin adding users who can use your ownCloud server space. You can add a new user as an individual user or as part of a group. When you add a user to an existing group, the groups’s policies apply to the user.
 
 1. From the **Control Panel**, click **Users**.
 The right pane lists the groups that are available in your system.
@@ -167,7 +167,7 @@ The right pane lists the groups that are available in your system.
 * Group Admin For – The groups for which the user is the administrator.
 * Quota – The maximum disk space permitted for the user.
 
-3. Click Create.
+3. Click **Create**.
 You can customize the options on the page by clicking the gear icon at the bottom of the left pane and choosing the desired options.
 
 
