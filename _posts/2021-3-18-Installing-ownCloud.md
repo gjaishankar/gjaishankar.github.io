@@ -24,7 +24,6 @@ The ownCloud package comprises the following components:
 This section lists the requirements for installing ownCloud. The versions listed are suppported and certified. 
 ## Server  Requirements
 | Platform         | Options                                  |
-|------------------|------------------------------------------|
 | Operating System | * Ubuntu 16.04 and 18.04<br>* Debian 7, 8, and 9<br>* SUSE Linux Enterprise Server 12 with SP1, SP2, and SP3<br>* Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5<br>* Fedora 27, 28, and 29<br>* openSUSE Leap 42.3 and 15
  | Database | * MySQL or MariaDB 5.5+<br>* Oracle 11g (Supported only for Enterprise editions)<br>* PostgreSQL 9 (versions 10 and above are not yet supported)<br>* SQLite (Not suitable for production environment)
  |Web server | * Apache 2.4 with prefork and mod_php<br> 
