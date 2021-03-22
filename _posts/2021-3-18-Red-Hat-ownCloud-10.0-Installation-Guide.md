@@ -81,7 +81,7 @@ The oldest client versions you can use to connect to the ownCloud server are as 
     
 # Installing the ownCloud Server
 
-Based on your preference, you can choose to install ownCloud server in any one of the four methods. You can install the ownCloud server in the following methods:
+Based on your preference, you can choose to install ownCloud server in any one of the following methods. You can install the ownCloud server in the following methods:
 
 * Manual installation – Use when you prefer to install and configure individual components and packages separately. For more information, see XXX.
 * Docker installation –  Use when you must expose port 8080 and authorize HTTP connections. For more information, see Introduction to Docker-Based Installation.
