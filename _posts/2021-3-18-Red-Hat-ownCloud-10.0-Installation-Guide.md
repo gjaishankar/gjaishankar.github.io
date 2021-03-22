@@ -163,7 +163,7 @@ The right pane lists the groups that are available in your system.
 * Username – the string with which the user can log into the system. This is not editable in future.
 * Email – The email ID to which the password reset link is sent. This can be updated, if required
 * Password – The password for the username. This can be updated later. 
-* Group – The list of available groups. You can also add a new group from here.
+* Group – The list of available groups to which the user can be added. You can also add a new group from here.
 * Group Admin For – The groups for which the user is the administrator.
 * Quota – The maximum disk space permitted for the user.
 
