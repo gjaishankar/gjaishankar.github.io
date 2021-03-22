@@ -168,6 +168,7 @@ The right pane lists the groups that are available in your system.
 * Quota – The maximum disk space permitted for the user.
 
 3. Click **Create**.
+
 You can customize the options on the page by clicking the gear icon at the bottom of the left pane and choosing the desired options.
 
 
