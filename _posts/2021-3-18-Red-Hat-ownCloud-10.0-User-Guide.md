@@ -1,7 +1,7 @@
-# My ownCloud Server
+# My ownCloud Space
 Using your ownCloud server, you can share documents, photos, and videos with other ownCloud users and groups. You can seamlessly transition between desktop and mobile interfaces with a single user account, and with the contents synchronized automatically, there is no loss of data. With two-factor authentication, you can rest assured that the files you upload to ownCloud is safe and is accessible only to the audience you set. 
 The ownCloud interface is built for both mobile and tablet view, and therefore the ownCloud orientation is best suited for viewing on any device of your choice. 
-# Accessing My ownCloud Server
+# Accessing My ownCloud Space
 
 You can access your ownCloud server from both a desktop or mobile browser. For a list of supported browsers, see System Requirements.
 
