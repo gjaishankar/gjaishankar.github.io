@@ -115,15 +115,10 @@ Run the following command:
 
 `cat << EOF > .env`\
 `OWNCLOUD_VERSION=<ownCloud version number to install>`
-
 `OWNCLOUD_DOMAIN=localhost:8080`
-
 `ADMIN_USERNAME=<username for admin user>`
-
 `ADMIN_PASSWORD=<password for the admin username>`
-
 `HTTP_PORT=8080`
-
 `EOF`
 
 **NOTE**: Once set, the username is not editable.
