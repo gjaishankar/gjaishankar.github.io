@@ -1,5 +1,5 @@
 # Overview of ownCloud Server
-Using ownCloud, you can store your data in a central repository either on an on-premise data center or at our hosted data center. As an administrator, you can control accessibility and the usage of the data is stored in the ownCloud space.
+Using ownCloud, you can store your data in a central repository either on an on-premise data center or at our hosted data center. As an administrator, you can control access and the extent of use of data that is stored in the ownCloud space.
 
 You can perform the following tasks to enhance the security of the data:
 
