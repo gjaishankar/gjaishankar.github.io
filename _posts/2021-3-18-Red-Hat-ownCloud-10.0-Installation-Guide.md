@@ -84,7 +84,7 @@ The oldest client versions you can use to connect to the ownCloud server are as 
 Based on your preference, you can choose to install ownCloud server in any one of the four methods. You can install the ownCloud server in the following methods:
 
 * Manual installation – Use when you prefer to install and configure individual components and packages separately. For more information, see XXX.
-* Docker installation –  Use when you must expose port 8080 and authorize HTTP connections. For more information, see XXX.
+* Docker installation –  Use when you must expose port 8080 and authorize HTTP connections. For more information, see Introduction to Docker-Based Installation.
 * Command Line installation – Use if you prefer a non-GUI based installation or if your environment depends on scripted operations. For more information, see XXX.
 * Wizard installation – Use only when you can complete the installation procedure with access control mechanisms. If you install using the wizard on public internet, you risk the presence of an external threat. For more information, see XXX.
 * Linux Package Manager installation – Use only for single-server setups and to avoid any automatic package upgrades. For more information, see XXX.
