@@ -29,6 +29,11 @@ This section lists the requirements for installing ownCloud. The versions listed
  |Web server | * Apache 2.4 with prefork and mod_php<br> 
  | PHP Runtime | 5.6, 7.0, 7.1, and 7.2<br>**NOTE**: PHP versions earlier than 7.2 could be deprecated in future.
  | Hypervisors | * Hyper-V <br>* VMWare ESX<br>* Xen<br>* KVM
+ 
+ | tes1 | Header 2 |
++======+==========+
+| test | Column 2 |
++------+----------+
 
 ## Client Requirements 
 The oldest clients you can use to connect to the ownCloud server are as follows:
