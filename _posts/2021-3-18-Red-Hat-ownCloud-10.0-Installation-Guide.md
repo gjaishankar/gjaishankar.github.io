@@ -113,13 +113,13 @@ Follow this procedure as is for local installations.  For remote installations, 
 1. Create the environment configuration file with your environment values.
 Run the following command:
 
-`cat << EOF > .env`\
-`OWNCLOUD_VERSION=<ownCloud version number to install>`
-`OWNCLOUD_DOMAIN=localhost:8080`
-`ADMIN_USERNAME=<username for admin user>`
-`ADMIN_PASSWORD=<password for the admin username>`
-`HTTP_PORT=8080`
-`EOF`
+`cat << EOF > .env`\ <br>
+`OWNCLOUD_VERSION=<ownCloud version number to install>`<br>
+`OWNCLOUD_DOMAIN=localhost:8080`<br>
+`ADMIN_USERNAME=<username for admin user>`<br>
+`ADMIN_PASSWORD=<password for the admin username>`<br>
+`HTTP_PORT=8080`<br>
+`EOF`<br>
 
 **NOTE**: Once set, the username is not editable.
 
