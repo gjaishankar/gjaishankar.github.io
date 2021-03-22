@@ -24,7 +24,8 @@ The ownCloud package comprises the following components:
 This section lists the requirements for installing ownCloud. The versions listed are suppported and certified. 
 ## Server  Requirements
 ## Operating System
-* Ubuntu 16.04 and 18.04<br>* Debian 7, 8, and 9
+* Ubuntu 16.04 and 18.04
+* Debian 7, 8, and 9
 * SUSE Linux Enterprise Server 12 with SP1, SP2, and SP3
 * Red Hat Enterprise Linux/Centos 6.9, 7.3, 7.4, and 7.5
 * Fedora 27, 28, and 29
@@ -41,6 +42,7 @@ This section lists the requirements for installing ownCloud. The versions listed
 
 ## PHP Runtime 
 5.6, 7.0, 7.1, and 7.2
+
 **NOTE**: PHP versions earlier than 7.2 could be deprecated in future.
  
 ## Hypervisors
@@ -103,9 +105,9 @@ Follow this procedure as is for local installations.  For remote installations, 
 1. Get a copy of the ownCloud server stack from: [https://hub.docker.com/r/owncloud/server/tags](https://hub.docker.com/r/owncloud/server/tags).
 
 1. Create a new directory by running the following command:
-`sudo mkdir *owncloud docker server*`
+`sudo mkdir <owncloud docker server>`
 4. Go to the newly created directory by running the following command:
-`cd *owncloud docker server*`
+`cd <owncloud docker server>`
 1. Copy the sample  docker compose .yml file from the GitHub repository by running the following command:
 `wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml`
 1. Create the environment configuration file with your environment values.
@@ -132,18 +134,7 @@ Run the following command:
 `sudo docker-compose up -d`
 1. Verify that the containers have started by running the following command:
 `sudo docker-compose ps`
- If the containers are up and running, the output for the command will look like the following sample:
- ```csharp
-Name                              Command                     State   Ports
-
-__________________________________________________________________________________________
-
-ownclouddockerserver_db_1         … /bin/s6-svscan /etc/s6    Up      3306/tcp
-
-ownclouddockerserver_owncloud_1   … /usr/bin/owncloud server  Up      0.0.0.0:8080->8080/tcp
-
-ownclouddockerserver_redis_1      … /bin/s6-svscan /etc/s6    Up      6379/tcp`
-```
+ The output displays the status **Up** if the containers are up and running.
 
 ## Performing Post-Installation Tasks
 
