@@ -142,9 +142,11 @@ After the installation is complete, since the files are stored as Docker volumne
 
 1. After the containers are up, it will take some time for the services to become fully functional. You can view the log of the services of the applications defined by Docker Compose by running the following command: `sudo docker-compose logs --follow owncloud`
 
-1. Start the web UI after you see the following message in the log file: `Starting apache daemon`
+1. Start the web UI to verify the installation after you see the following message in the log file: `Starting apache daemon`
 
 ## Verifying the Installation
+
+To verify a successful installation, you must access the ownCloud server from a browser. 
 
 1. On the address bar of a supported browser, enter the following address:
 `http://localhost:8080`
@@ -153,7 +155,7 @@ After the installation is complete, since the files are stored as Docker volumne
 For Troubleshooting Tips, see XXX. 
 # Adding a New User
 
-You can add a new user as an individual user or as part of a group. When you add a user to an existing group, the groups’s policies apply to the user.
+AFter you complete the installation, you can begin adding users who can use your ownCloud server space. You can add a new user as an individual user or as part of a group. When you add a user to an existing group, the groups’s policies apply to the user.
 
 1. From the **Control Panel**, click **Users**.
 The right pane lists the groups that are available in your system.
@@ -168,22 +170,7 @@ The right pane lists the groups that are available in your system.
 3. Click Create.
 You can customize the options on the page by clicking the gear icon at the bottom of the left pane and choosing the desired options.
 
-# Accessing My ownCloud Server
 
-You can access your ownCloud server from both a desktop or a mobile browser. For a list of supported browsers, see System Requirementsd
-
-1. From your mobile or desktop, open a supported browser, and enter the following:
-`http://localhost:8080/owncloud/index.ph`
-1. Enter your username and password.
-1. Click **Connect**.
-
-If your ownCloud server has a self-signed SSL certificate, you will see a warning message saying that the site is not trusted. Click **Yes** at the prompt.
-
-If you logged in from your mobile, you  will be prompted to install the ownCloud app from the Google PlayStore or from the Apple App store.
-
-You can now access the server.
-
- 
 
  
 
