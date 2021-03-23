@@ -104,13 +104,13 @@ Follow this procedure as is for local installations.  For remote installations, 
 
 1. Get a copy of the ownCloud server stack from: [https://hub.docker.com/r/owncloud/server/tags](https://hub.docker.com/r/owncloud/server/tags).
 
-1. Create a new directory by running the following command:
+2. Create a new directory by running the following command:
 `sudo mkdir <owncloud docker server>`
-4. Go to the newly created directory by running the following command:
+3. Go to the newly created directory by running the following command:
 `cd <owncloud docker server>`
-1. Copy the sample  docker compose .yml file from the GitHub repository by running the following command:
+4. Copy the sample  docker compose .yml file from the GitHub repository by running the following command:
 `wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml`
-1. Create the environment configuration file with your environment values.
+5. Create the environment configuration file with your environment values.
 Run the following command:
 
 `cat << EOF > .env`\ <br>
@@ -125,15 +125,15 @@ Run the following command:
 
 **NOTE**: If you are installing on a remote system, replace the OWNCLOUD_DOMAIN values with the appropriate value.
 
-1. Build and start the containers by running the following command:
+6. Build and start the containers by running the following command:
 `sudo docker-compose up -d`
-1. Verify that the containers have started by running the following command:
+7. Verify that the containers have started by running the following command:
 `sudo docker-compose ps`
  The output displays the status **Up** if the containers are up and running.
 
 ## Performing Post-Installation Tasks
 
-After the installation is complete, since the files are stored as Docker volumnes, you must persist the files manually.
+After the installation is complete, since the files are stored as Docker volumes, you must persist the files manually.
 
 1. Inspect the volumes by running the following command: `sudo docker volume ls | grep ownclouddockerserver`
     
