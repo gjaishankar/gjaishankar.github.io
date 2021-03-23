@@ -1,5 +1,5 @@
 # Overview of ownCloud Server
-Using ownCloud, you can store your data in a central repository either on an on-premise data center or at our hosted data center. As an administrator, you can control access and the extent of use of data that is stored in the ownCloud space.
+Using ownCloud, you can store your data in a central repository either on an on-premise data center or at our hosted data center. As an administrator, you can control the access and the extent of use of the data that is stored in your ownCloud server.
 
 You can perform the following tasks to enhance the security of the data:
 
@@ -81,7 +81,7 @@ The oldest client versions you can use to connect to the ownCloud server are as 
     
 # Installing the ownCloud Server
 
-Based on your preference, you can choose to install ownCloud server in any one of the following methods. You can install the ownCloud server in the following methods:
+ownCloud offers different methods of installation to suit different requirements. Based on your preference, you can choose to install ownCloud server in any one of the following methods:
 
 * Manual installation – Use when you prefer to install and configure individual components and packages separately. For more information, see XXX.
 * Docker installation –  Use when you must expose port 8080 and authorize HTTP connections. For more information, see Introduction to Docker-Based Installation.
